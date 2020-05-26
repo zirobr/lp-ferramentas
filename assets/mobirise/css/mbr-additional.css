@@ -764,7 +764,6 @@ blockquote {
 }
 .cid-rIyZ6uDDHh .menu-logo {
   margin-right: auto;
-  background: url(https://lp-ferramentas.ziro.now.sh/social-media.png);
 }
 .cid-rIyZ6uDDHh .menu-logo .navbar-brand {
   display: flex;
@@ -965,6 +964,11 @@ blockquote {
 .cid-rIyZ6uDDHh .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rIyZ6uDDHh .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
+}
+@media (min-width: 1254px) {
+  .cid-rIyZ6uDDHh .collapsed:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 3rem);
+  }
 }
 .cid-rIyZ6uDDHh .collapsed button.navbar-toggler {
   display: block;
@@ -1310,14 +1314,25 @@ blockquote {
   padding-bottom: 55px;
   background-color: #ffffff;
 }
-.cid-rZzhMeJGnC .card3 {
-  border-bottom: none !important;
-  border-left: none !important;
-}
 .cid-rZzhMeJGnC .card4,
 .cid-rZzhMeJGnC .card5,
 .cid-rZzhMeJGnC .card6 {
   border-bottom: none !important;
+}
+@media (max-width: 2560px) {
+  .cid-rZzhMeJGnC .card4 {
+    border-left: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .cid-rZzhMeJGnC .card3,
+  .cid-rZzhMeJGnC .card5 {
+    border-left: none !important;
+  }
+  .cid-rZzhMeJGnC .card4 {
+    border-left: 1px solid #ebebeb !important;
+    border-bottom: 1px solid #ebebeb !important;
+  }
 }
 .cid-rZzhMeJGnC .row {
   padding: 0 1rem;
@@ -1520,6 +1535,23 @@ blockquote {
 .cid-rZzkrz2lom .text {
   text-align: center;
 }
+.cid-s08e5SNoRP {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #343434;
+}
+.cid-s08e5SNoRP .mbr-text {
+  color: #ffffff;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cid-s08e5SNoRP p {
+    text-align: center;
+  }
+  .cid-s08e5SNoRP .row {
+    justify-content: center;
+  }
+}
 .cid-s01FA2nJHq {
   padding-top: 55px;
   padding-bottom: 55px;
@@ -1662,6 +1694,23 @@ blockquote {
 }
 .cid-s01FA2nJHq .wrap0 {
   margin-bottom: 120px;
+}
+.cid-s08f892E9z {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #343434;
+}
+.cid-s08f892E9z .mbr-text {
+  color: #ffffff;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cid-s08f892E9z p {
+    text-align: center;
+  }
+  .cid-s08f892E9z .row {
+    justify-content: center;
+  }
 }
 .cid-rZzkqbRTNZ {
   padding-top: 55px;
