@@ -153,6 +153,10 @@
             ".mbr-section-btn": {
               "margin-left": "0",
               "margin-right": "0"
+            },
+            ".icon1": {
+              "pointer-events": "none",
+              "cursor": "default"
             }
           },
           "_name": "title01",
@@ -162,7 +166,9 @@
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "alias": false,

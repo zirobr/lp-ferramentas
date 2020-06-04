@@ -701,6 +701,10 @@ blockquote {
   margin-left: 0;
   margin-right: 0;
 }
+.cid-s01JVpqEpV .icon1 {
+  pointer-events: none;
+  cursor: default;
+}
 .cid-rIyZ6uDDHh .navbar {
   padding: .5rem 0;
   background: #343434;
