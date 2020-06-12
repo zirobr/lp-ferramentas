@@ -1539,23 +1539,6 @@ blockquote {
 .cid-rZzkrz2lom .text {
   text-align: center;
 }
-.cid-s08Yhtyqjl {
-  padding-top: 75px;
-  padding-bottom: 75px;
-  background-color: #343434;
-}
-.cid-s08Yhtyqjl .mbr-text {
-  color: #ffffff;
-  text-align: center;
-}
-@media (max-width: 768px) {
-  .cid-s08Yhtyqjl p {
-    text-align: center;
-  }
-  .cid-s08Yhtyqjl .row {
-    justify-content: center;
-  }
-}
 .cid-s01FA2nJHq {
   padding-top: 55px;
   padding-bottom: 55px;
@@ -1698,6 +1681,23 @@ blockquote {
 }
 .cid-s01FA2nJHq .wrap0 {
   margin-bottom: 120px;
+}
+.cid-s08Yhtyqjl {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #343434;
+}
+.cid-s08Yhtyqjl .mbr-text {
+  color: #ffffff;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cid-s08Yhtyqjl p {
+    text-align: center;
+  }
+  .cid-s08Yhtyqjl .row {
+    justify-content: center;
+  }
 }
 .cid-rZzkqbRTNZ {
   padding-top: 55px;
