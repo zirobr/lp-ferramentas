@@ -1544,14 +1544,25 @@ blockquote {
   padding-bottom: 55px;
   background-color: #ffffff;
 }
-.cid-s01FA2nJHq .card3 {
-  border-bottom: none !important;
-  border-left: none !important;
-}
 .cid-s01FA2nJHq .card4,
 .cid-s01FA2nJHq .card5,
 .cid-s01FA2nJHq .card6 {
   border-bottom: none !important;
+}
+@media (max-width: 2560px) {
+  .cid-s01FA2nJHq .card4 {
+    border-left: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .cid-s01FA2nJHq .card3,
+  .cid-s01FA2nJHq .card5 {
+    border-left: none !important;
+  }
+  .cid-s01FA2nJHq .card4 {
+    border-left: 1px solid #ebebeb !important;
+    border-bottom: 1px solid #ebebeb !important;
+  }
 }
 .cid-s01FA2nJHq .row {
   padding: 0 1rem;
